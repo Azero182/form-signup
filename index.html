@@ -23,26 +23,26 @@
                 <p><b>Try it free 7 days</b> then $20/mo. thereafter</p>
             </div>
             <div class="myForm" id="myForm">
-                <form action="">
+                <form action="reload" method="post" target="_blank">
                     <label for="first-name">
-                        <input type="text" placeholder="First Name" required name="first-name"> 
-                        <img class="icon hidden" src="./icon-error.svg" alt="error">
-                        <p class="text hidden">First name cannot be empty</p>
+                        <input type="text" placeholder="First Name"  name="first-name" id="first-name"> 
+                        <img id="i1" class="icon hidden" src="./icon-error.svg" alt="error">
+                        <p id="t1" class="text hidden">First name cannot be empty</p>
                     </label>
                     <label for="last-name">
-                        <input type="text" placeholder="Last Name" required name="last-name">
-                        <img class="icon hidden" src="./icon-error.svg" alt="error">
-                        <p class="text hidden">Last name cannot be empty</p>
+                        <input type="text" placeholder="Last Name" name="last-name" id="last-name">
+                        <img id="i2" class="icon hidden" src="./icon-error.svg" alt="error">
+                        <p id="t2" class="text hidden">Last name cannot be empty</p>
                     </label>
                     <label for="email">
-                        <input type="email" placeholder="Email Address" required name="email">
-                        <img class="icon hidden" src="./icon-error.svg" alt="error">
-                        <p class="text hidden">Looks like this is not an email</p>
+                        <input type="email" placeholder="Email Address" name="email" id="email">
+                        <img id="i3" class="icon hidden" src="./icon-error.svg" alt="error">
+                        <p id="t3" class="text hidden">Looks like this is not an email</p>
                     </label>
                     <label for="password">
-                        <input type="password" placeholder="Password" required name="password">
-                        <img class="icon hidden" src="./icon-error.svg" alt="error">
-                        <p class="text hidden">Password cannot be empty</p>
+                        <input type="password" placeholder="Password" name="password" id="password">
+                        <img id="i4" class="icon hidden" src="./icon-error.svg" alt="error">
+                        <p id="t4" class="text hidden">Password cannot be empty</p>
                     </label>
                     <input type="submit" value="CLAIM YOUR FREE TRIAL" id="submit">
                 </form>
@@ -53,5 +53,5 @@
         </div>
     </main>
 </body>
-
+<script src="index.js"></script>
 </html>
