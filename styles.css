@@ -1,0 +1,110 @@
+:root{
+    font-size: 10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    width: 100vw;
+    max-width: 1440px;
+    height: 100vh;
+    font-family: Poppins, sans-serif;
+    background-image: url(./bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    display: flex;
+    width: 80%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.empty {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    color: white;
+    flex-direction: column;
+    text-align: left;
+}
+h1 {
+    font-size: 4rem;
+    margin: 30% 10% 2% 15%; 
+    line-height: 4rem;
+}
+.description {
+    font-size: 1.5rem;
+    margin: 2% 0% 2% 15%; 
+    line-height: 1.7rem;
+
+}
+.container{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    padding: 4%;
+    justify-items: center;
+}
+.price {
+    display: flex;
+    width: 100%;
+    height: 12%;
+    background-color: hsl(248, 32%, 49%);
+    font-size: 1.4rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: white;
+    box-shadow: 0px 5px rgba(83, 83, 83, 0.3) ;
+}
+.myForm {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 80%;
+    margin: 2.5% auto;
+    flex-direction: column;
+    padding: 5%;
+    border-radius: 8px;
+    box-shadow: 0px 5px rgba(83, 83, 83, 0.3) ;
+}
+input {
+    display: flex;
+    width: 95%;
+    height: 40%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    padding-left: 3rem;    
+    border-radius: 8px;
+    border: 1px solid hsl(246, 25%, 77%);
+    color: hsl(249, 10%, 26%) ;
+    font-weight: bold;
+}
+#submit {
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.small-letter {
+    position: relative;
+    top: 52%;
+    text-align: center;
+    color: hsl(246, 25%, 77%);
+}
+.small-letter span {
+    color: hsl(0, 100%, 74%) ;
+}
