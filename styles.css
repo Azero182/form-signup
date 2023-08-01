@@ -112,6 +112,19 @@ label input{
 .small-letter span {
     color: hsl(0, 100%, 74%) ;
 }
+
+.icon {
+    position: relative;
+    top: -12%;
+    right: -85%;
+}
+.text {
+    position: relative;
+    top: -10%;
+    right: -60%; 
+    color: hsl(0, 100%, 74%);
+    margin-bottom: -5px;
+}
 .hidden {
     color: transparent;
     border: none;
@@ -119,5 +132,25 @@ label input{
     width: 1px;
     height: 1px;
     overflow: hidden;
-
 }
+.unhidden {
+    height: 120%;
+}
+.unhidden #submit {
+    height: 17%;
+    margin-bottom: -1%;
+    overflow: hidden;;
+}
+.unhidden input{
+    height: 17%;
+    margin-bottom: -1%;
+    overflow: hidden;
+    border: 1px solid hsl(0, 100%, 74%);
+}
+
+ .unhidden > .small-letter{
+    position: relative;
+    top: 32%;
+} 
+
+/* ****** myForm es .unhidden y icon y text es hidden **** */
