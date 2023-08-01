@@ -103,6 +103,9 @@ label input{
     cursor: pointer;
     margin: 0 auto;
 }
+#submit:hover {
+    background-color: hsl(154, 59%, 67%);
+}
 .small-letter {
     position: relative;
     top: 44%;
