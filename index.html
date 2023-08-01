@@ -24,13 +24,30 @@
             </div>
             <div class="myForm">
                 <form action="">
-                    <input type="text" placeholder="First Name" required name="first-name">
-                    <input type="text" placeholder="Last Name" required name="last-name">
-                    <input type="email" placeholder="Email Address" required name="email">
-                    <input type="password" placeholder="Password" required name="password">
+                    <label for="first-name">
+                        <input type="text" placeholder="First Name" required name="first-name"> 
+                        <img class="icon hidden" src="./icon-error.svg" alt="error">
+                        <p class="text hidden">First name cannot be empty</p>
+                    </label>
+                    <label for="last-name">
+                        <input type="text" placeholder="Last Name" required name="last-name">
+                        <img class="icon hidden" src="./icon-error.svg" alt="error">
+                        <p class="text hidden">Last name cannot be empty</p>
+                    </label>
+                    <label for="email">
+                        <input type="email" placeholder="Email Address" required name="email">
+                        <img class="icon hidden" src="./icon-error.svg" alt="error">
+                        <p class="text hidden">Looks like this is not an email</p>
+                    </label>
+                    <label for="password">
+                        <input type="password" placeholder="Password" required name="password">
+                        <img class="icon hidden" src="./icon-error.svg" alt="error">
+                        <p class="text hidden">Password cannot be empty</p>
+                    </label>
                     <input type="submit" value="CLAIM YOUR FREE TRIAL" id="submit">
                 </form>
-                <p class="small-letter">By clicking the button, you are agreeing to our <span> <b>Terms and Services</b></span>
+                <p class="small-letter">By clicking the button, you are agreeing to our <span> <b>Terms and
+                            Services</b></span>
                 </p>
             </div>
         </div>
